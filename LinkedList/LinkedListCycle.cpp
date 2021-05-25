@@ -1,6 +1,6 @@
 //link for problem ->  https://leetcode.com/problems/linked-list-cycle/
 
-           bool hasCycle(ListNode *head) {
+        bool hasCycle(ListNode *head) {
         
         ListNode * slow = head;
         ListNode * fast = head;
