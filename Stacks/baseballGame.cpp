@@ -1,5 +1,5 @@
-  https://leetcode.com/problems/baseball-game/
-  www.google.com
+//  link for problem -> https://leetcode.com/problems/baseball-game/
+ 
 
 #include<bits/stdc++.h>
 using namespace std;
