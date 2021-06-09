@@ -59,7 +59,7 @@ void nQueenHelper(int n, int row){
 
 void placeQueens(int n){
 
-    memset(board,0,11*11*sizeof(int));
+    memset(board,0,4*4*sizeof(int));
 
     nQueenHelper(n,0);
 
