@@ -1,0 +1,30 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+    
+    int t;
+    cin>>t;
+    
+    while(t--){
+        
+       long n;
+       cin>>n;
+       
+       long EF0=0;
+       long EF1=2;
+       long EFNext = 4*EF1 + EF0;
+       long sum = 2+ EFNext;
+       while(EFNext<=n){
+           EF0=EF1;
+           EF1=EFNext;
+           EFNext= 4*EF1 + EF0;
+           if(EFNext<=n){
+               sum+=EFNext;
+           }
+       }
+       cout<<sum<<endl;
+    }
+    
+    
+}
